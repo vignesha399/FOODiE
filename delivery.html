@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <meta name="Description" content="sample web-designing"> <meta name="keyword" content="freezr, freezr.w3spaces.com, freezr.w3spaces"> <meta name="author" content="VIGNESH, vignesh A, VIGNESH A"> <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="csssheet.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- font awesome icons link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>FOODiE</title>
+    <style>
+        table { position: absolute; background-color: transparent; background-color: rgb(66, 73, 179); font-size: xx-large; top: 60%; left: 50%; transform: translate(-50%, -50%); color: rgb(7, 0, 0); visibility: visible; padding: .05%; }
+        tr td{padding: 5%; text-align: center; border-bottom: 2px double black;}
+        tr th{padding: 1%; text-align: center; font-size: large; border-bottom: 2px double black;}
+        table tr td a.left{position: relative;text-decoration: none;color:rgb(48, 18, 18)}
+        table tr td a.left:before { content: "";position: absolute;width: 100%;height: 2px;bottom: 0;left: 0;background-color: #fff;visibility: hidden;transform: scaleX(0);transition: all 0.3s ease-in-out;}
+        table tr td a.left:hover::before {visibility: visible;transform: scaleY(1);}
+        @media screen and (min-width:801px) { .img1{ visibility: visible;}.img2{ visibility: hidden; position: absolute; width: 0%;}.img3{ visibility: hidden; position: absolute; width: 0%;}}
+        @media screen and (max-width:800px) { .img1{ visibility: hidden; position: absolute;}.img2{ visibility: visible;}.img3{ visibility: hidden;position: absolute;}}
+        @media screen and (max-width:600px) { .img1{ visibility: hidden; position: absolute;}.img2{ visibility: hidden; position: absolute;}.img3{ visibility: visible;}} 
+    </style>
+    <script>
+        window.addEventListener("load",function(){
+            var bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+            bannerNode.parentNode.removeChild(bannerNode);
+        });
+    </script>
+</head>
+<body>
+    <h1 class="h1"> FOODiE</h1>
+        <!-- for mobile and tab  -->
+        <div class="navm">
+            <ul class="ul">
+                <li> <a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li> <a href="Sample.html"><i class="fad fa-comment-exclamation"></i> </a></li>
+                <li> <i class="fas fa-concierge-bell"></i> <ul> 
+                    <li> <a href="COD.html"><i class="far fa-money-bill-alt"></i> </a></li>
+                    <li><a href="PS.html"><i class="fab fa-amazon-pay"></i></a></li>
+                    <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9105654417876!2d77.7738539142971!3d12.11827153630637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baea319e85fd3c9%3A0x411c24b9961851ea!2sHogenakkal%20Falls!5e0!3m2!1sen!2sin!4v1633180513563!5m2!1sen!2sin"><i class="fas fa-utensils"></i></a></li>
+                </ul></li>
+                <li> <a href="Products.html"><i class="fas fa-hamburger"></i></a></li>
+                <li> <a href="Management.html"><i class="far fa-building"></i></a></li>
+            </ul>
+        </div>
+        <!-- for desktop -->
+        <div class="nav">
+            <ul class="ul">
+                <li> <a href="index.html"><i class="fas fa-home">Home</i></a></li>
+                <li> <a href="Sample.html"><i class="fad fa-comment-exclamation">Sample</i> </a></li>
+                <li> <i class="fas fa-concierge-bell"> Services</i> <ul> 
+                    <li> <a href="COD.html"><i class="far fa-money-bill-alt">cod</i> </a></li>
+                    <li><a href="PS.html"><i class="fab fa-amazon-pay">pod</i></a></li>
+                    <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9105654417876!2d77.7738539142971!3d12.11827153630637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baea319e85fd3c9%3A0x411c24b9961851ea!2sHogenakkal%20Falls!5e0!3m2!1sen!2sin!4v1633180513563!5m2!1sen!2sin"><i class="fas fa-utensils"></i>restorent</a></li>
+                </ul></li>
+                <li> <a href="Products.html"><i class="fas fa-hamburger">Product</i></a></li>
+                <li> <a href="Management.html"><i class="fas fa-phone-square-alt"> Contact</i></a></li>
+            </ul> 
+        </div>
+        <img src="payment-gateway-title.png" class="img1" width="100%">
+        <img src="eCommerce-Payment-1800.png" class="img2" width="100%">
+        <img src="eCommerce-Payment-1600.png" class="img3" width="100%">
+        <table>
+            <tr>
+                <th>click to payment mode</th>
+            </tr>
+            <tr>
+                <td><a href="COD.html" class="left"> Cash On Delivery</a></td>
+            </tr>
+            <tr>
+                <td><a href="PS.html" class="left"> Parcel Service </a></td>
+            </tr>
+        </table>
+         <!-- footer div footer div footer div -->
+        <footer class="headdd">
+            <div class="footer">
+                <dl> <u><b>Author information :</b></u>
+                    <dt><dd>author name :*****</dd> <dd>from : India</dd> <dd> About author <a href="#">click here</a></dd></dt>
+                </dl>
+            </div>
+            <div class="footer">
+                <p class="div2">
+                    <dl>
+                        <dt><b>Management-Description</b>
+                            <dd>Customer satisfaction is our satisfaction</dd>
+                        </dt>
+                        <dt>
+                            <dd><b>copyright &copy; : 2021</b></dd>
+                        </dt>
+                            
+                    </dl>
+                </p>
+            </div>
+        </footer>
+</body>
+</html>

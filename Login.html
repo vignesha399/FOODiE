@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGIN</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="csssheet.css">
+        <script>
+            window.addEventListener("load",function(){
+                var bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+                bannerNode.parentNode.removeChild(bannerNode);
+            });
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <h1><u>LOGIN</u></h1>
+            <div>
+                <form style="width:30%;" action="index.html">
+                    <fieldset style="padding:30px; margin:10px;">
+                        <legend>LOGIN</legend>
+                        <label for="username" >username</label><br>
+                        <input type="text" id="username" name="user" style="padding:5px; margin:5px;" placeholder="Email"><br>
+                        <label for="password" >password</label><br> 
+                        <input type="password" id="password" name="password" style="padding:5px; margin:5px;" placeholder="password"><br>
+                        <label for="submit" ></label>
+                        <input type="submit" id="submit" style="width:30%; ">
+                        <label for="cancel"></label>
+                        <input type="reset" id="cancel" style="width:30%; "><hr>
+                        <a href="registration.html">new Registerations</a>
+                    </fieldset>   
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
