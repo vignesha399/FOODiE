@@ -48,13 +48,13 @@ h2{ color: rgb(211, 64, 64); text-align: center;}
         visibility: visible;
     }
 }
-.nav ul li ul { position: absolute; display: block; width: 100%; visibility: hidden; }
+.nav ul{  text-align: center; display: flex; margin: 2px; }
+.nav ul li ul { position: absolute; display: block; width: 50%; visibility: hidden; }
 .nav ul li ul li{ color: black; }
 .nav ul li:hover ul li{ visibility: visible; background-color:rgb(190, 235, 88); z-index: 1; }
-.nav ul li a{ color: black; text-shadow: -2px -2px 3px coral; text-decoration: none; }
-.nav ul li{ list-style-type: none; border-left: 1px solid black; width: 100%; position: relative;  padding: 10px; }
-.nav ul > li:hover{ background-color: rgb(165, 94, 94);  color: rgb(154, 194, 136); }
-.nav ul{  text-align: center; display: flex; margin: 2px; justify-content: space-between; }
+.nav ul li a{ color: black; text-shadow: -2px -2px 3px coral; text-decoration: none; width: 100px; }
+.nav ul li{ list-style-type: none; border-left: 1px solid black; width: 50%; padding: 2px; }
+.nav ul li a:hover{ background-color: rgb(165, 94, 94);  color: rgb(154, 194, 136); height: 10px;}
 @media (min-width:769px){.foodiecontainer{ float: left;}}
 @media (max-width:768px){.foodiecontainer{ display: flex; justify-content: space-around; text-align: center;}}
 .round{
